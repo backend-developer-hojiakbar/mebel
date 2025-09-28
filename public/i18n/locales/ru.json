@@ -1,0 +1,257 @@
+
+{
+    "header": {
+        "title": "Тендер",
+        "subtitle": "Хантер ИИ"
+    },
+    "footer": {
+        "rights": "Все права защищены."
+    },
+    "app": {
+        "tabs": {
+            "dashboard": "Панель Управления",
+            "analysis": "Анализ Тендера",
+            "contracts": "База Контрактов",
+            "history": "История Анализов",
+            "quickSearch": "Быстрый Поиск"
+        }
+    },
+    "dashboard": {
+        "title": "Панель Управления",
+        "subtitle": "Обзор вашей активности и ключевые показатели эффективности.",
+        "kpi": {
+            "totalAnalyses": "Всего Анализов",
+            "totalContracts": "Всего Контрактов",
+            "avgSuppliers": "Среднее Поставщиков",
+            "topSupplier": "Самый Активный Поставщик",
+            "noData": "Нет данных",
+            "winRate": "Коэффициент Побед",
+            "tendersWon": "Выиграно Тендеров",
+            "tendersLost": "Проиграно Тендеров",
+            "totalProfit": "Общая Прибыль",
+            "avgMargin": "Средняя Маржа"
+        },
+        "chart": {
+            "title": "Анализы по Месяцам"
+        },
+        "recent": {
+            "analyses": "Последние Анализы",
+            "contracts": "Последние Контракты"
+        }
+    },
+    "knowledgeBase": {
+        "title": "База Контрактов",
+        "subtitle": "Загрузите подписанные контракты, чтобы обучить ИИ и повысить качество анализа.",
+        "uploadButton": "Загрузить Контракт",
+        "uploadButtonMultiple": "Загрузить Файлы ({{count}})",
+        "emptyState": "Пока не загружено ни одного контракта.",
+        "uploadedContracts": "Загруженные Контракты",
+        "deleteTooltip": "Удалить",
+        "summaryPlaceholder": "Генерация описания...",
+        "errorProcessing": "Ошибка при анализе",
+        "details": {
+            "customer": "Заказчик",
+            "supplier": "Поставщик",
+            "totalValue": "Общая стоимость",
+            "productsTitle": "Продукты в контракте",
+            "product": "Продукт",
+            "quantity": "Кол-во",
+            "unitPrice": "Цена за ед."
+        }
+    },
+    "analysisHistory": {
+        "title": "История Анализов",
+        "subtitle": "Все ваши прошлые анализы сохраняются здесь. Выберите любой, чтобы просмотреть результаты.",
+        "emptyState": "История анализов пока пуста. Начните новый анализ!",
+        "viewButton": "Смотреть Результат",
+        "analyzedOn": "Проанализировано: {{date}}",
+        "productsFound": "Продуктов: {{count}}",
+        "status": {
+            "pending": "В ожидании",
+            "won": "Выигран",
+            "lost": "Проигран",
+            "noBid": "Без участия"
+        },
+        "winningBid": "Выигрышная цена (UZS)",
+        "actualCost": "Фактическая себестоимость (UZS)",
+        "deliveryNotes": "Примечания по поставке",
+        "saveDetails": "Сохранить",
+        "editDetails": "Изменить",
+        "profit": "Прибыль",
+        "margin": "Маржа"
+    },
+    "quickSearch": {
+        "title": "Быстрый Поиск Товаров",
+        "subtitle": "Введите название товара, и ИИ найдет и проанализирует цены в интернете.",
+        "placeholder": "Например, 'Кондиционер Artel 12 Inverter'",
+        "button": "Найти",
+        "loading": "Идет поиск и анализ цен...",
+        "noResults": "Ничего не найдено.",
+        "error": "Произошла ошибка во время поиска.",
+        "price": "Цена",
+        "phone": "Номер телефона",
+        "priceLoading": "Загрузка...",
+        "priceNA": "Не найдена",
+        "priceError": "Ошибка"
+    },
+    "potentialScore": {
+        "title": "Потенциальный Балл",
+        "description": "Общий показатель, рассчитанный на основе баллов Возможности и Риска.",
+        "opportunity": "Возможность",
+        "risk": "Риск",
+        "winProbability": "Вероятность победы (Оптимал.)",
+        "daysRemaining": "Осталось {{days}} д.",
+        "deadlineExpired": "Срок истек",
+        "deadlineNA": "Срок неизвестен"
+    },
+    "form": {
+        "title": "Начать Новый Анализ",
+        "subtitle": "Введите данные тендера, чтобы мгновенно найти лучших поставщиков.",
+        "platformLabel": "Платформа Закупок",
+        "tenderTypeLabel": "Тип Тендера",
+        "urlLabel": "URL Источника Лота",
+        "urlHint": "Для наиболее точных и актуальных результатов предоставьте URL-адрес лота вместе с файлом.",
+        "or": "ИЛИ",
+        "fileLabel": "Загрузить Сохраненный Файл",
+        "imageLabel": "Загрузить Изображения Продукта",
+        "submitButton": "Начать Анализ",
+        "processingFile": "Обработка файлов...",
+        "error": {
+            "noSource": "Пожалуйста, укажите URL лота или загрузите файл."
+        },
+        "file": {
+            "clickToUpload": "Нажмите для загрузки",
+            "dragAndDrop": "или перетащите файл",
+            "addMoreHint": "или добавьте еще",
+            "supportedFormats": "Поддерживаемые форматы: {{formats}}",
+            "multipleSelected": "Выбрано файлов: {{count}}",
+            "selectedFiles": "Выбранные файлы",
+            "removeFile": "Удалить файл"
+        }
+    },
+    "platform": {
+        "uzex": "xarid.uzex.uz",
+        "xt": "xt-xarid.uz"
+    },
+    "tenderType": {
+        "auction": "Аукцион",
+        "selection": "Отбор наилучших предложений",
+        "eshop": "Электронный магазин"
+    },
+    "loading": {
+        "title": "Идет Анализ",
+        "stage": {
+            "starting": "Начинается анализ...",
+            "scraping": "Сбор изображений с веб-страницы...",
+            "extracting": "Извлечение продуктов из документа...",
+            "searching": "Поиск поставщиков... ({{current}}/{{total}})",
+            "summarizing": "Подготовка итоговой сводки...",
+            "compiling": "Составление отчета..."
+        }
+    },
+    "results": {
+        "title": "Анализ Завершен",
+        "subtitle": "Найдено продуктов: {{count}}. Выберите продукт, чтобы увидеть поставщиков.",
+        "exportButton": "Экспорт в CSV",
+        "newAnalysisButton": "Новый Анализ",
+        "selectProductPrompt": "Выберите продукт из списка, чтобы просмотреть его потенциальных поставщиков.",
+        "summary": {
+            "title": "Сводка Анализа",
+            "productsFound": "Найдено Продуктов",
+            "suppliersAnalyzed": "Проанализировано Поставщиков",
+            "source": "Источник Анализа",
+            "aiInsightTitle": "Сводка от ИИ"
+        }
+    },
+    "productList": {
+        "title": "Продукты в Лоте",
+        "startPrice": "Стартовая цена",
+        "bestPrice": "Лучшая цена",
+        "positionHeader": "Позиция #{{number}}",
+        "researching": "Идет поиск...",
+        "addPriceTooltip": "Добавить или исправить цену",
+        "edit": {
+            "name": "Название продукта",
+            "features": "Технические характеристики",
+            "cancel": "Отмена",
+            "research": "Повторный поиск"
+        }
+    },
+    "supplierTable": {
+        "productCode": "Код продукта",
+        "dimensions": "Размеры",
+        "header": {
+            "company": "Компания",
+            "price": "Цена за ед.",
+            "totalPrice": "Общая стоимость",
+            "stockStatus": "Наличие",
+            "contact": "Контакты",
+            "region": "Регион",
+            "score": "Рейтинг"
+        },
+        "noSuppliers": "Поставщики для этого продукта не найдены.",
+        "copyTooltip": "Копировать",
+        "editTooltip": "Редактировать",
+        "addSupplier": "Добавить поставщика",
+        "form": {
+            "companyName": "Название компании",
+            "price": "Цена (напр., 1500000 UZS)",
+            "phone": "Телефон",
+            "stockStatus": "Наличие на складе",
+            "save": "Сохранить",
+            "cancel": "Отмена"
+        }
+    },
+    "stockStatus": {
+        "inStock": "В наличии",
+        "onOrder": "Под заказ",
+        "outOfStock": "Нет в наличии",
+        "na": "Неизвестно"
+    },
+    "bidCalculator": {
+        "title": "Расчет Ценового Предложения",
+        "subtitle": "Введите дополнительные расходы и получите рекомендацию ИИ, чтобы сделать выигрышную ставку.",
+        "calculateButton": "Получить Рекомендацию",
+        "calculating": "Расчет...",
+        "selectSuppliersPrompt": "Пожалуйста, выберите поставщика для каждого продукта.",
+        "costsTitle": "Дополнительные Расходы",
+        "logistics": "Расходы на Логистику (UZS)",
+        "bankGuarantee": "Банковская Гарантия (UZS)",
+        "commission": "Комиссия Брокера (UZS)",
+        "fixedCosts": "Фиксированные Расходы (UZS)",
+        "profitMargin": "Маржа Прибыли (%)",
+        "recommendationTitle": "Рекомендация Цены от ИИ",
+        "recommendedBid": "Рекомендуемая Ставка",
+        "competitorAnalysis": "Анализ Конкурентов",
+        "justification": "Обоснование",
+        "costBreakdownTitle": "Детализация Расходов",
+        "goodsTotal": "Итого по Товарам",
+        "logisticsCost": "Расходы на Логистику",
+        "bankGuaranteeCost": "Банковская Гарантия",
+        "commissionCost": "Комиссия Брокера",
+        "subtotal": "Промежуточный Итог",
+        "profit": "Прибыль",
+        "total": "Итоговая Сумма"
+    },
+    "error": {
+        "title": "Ошибка Анализа",
+        "genericMessage": "Не удалось обработать файл. Убедитесь, что это действительный, сохраненный тендерный документ. (Детали: {{details}})",
+        "tryAgainButton": "Попробовать Снова"
+    },
+    "csv": {
+        "header": {
+            "position": "Позиция",
+            "productName": "Название Продукта",
+            "features": "Характеристики",
+            "unit": "Ед. изм.",
+            "quantity": "Количество",
+            "startPrice": "Стартовая Цена",
+            "supplier": "Поставщик",
+            "unitPriceOriginal": "Цена за ед. (Оригинал)",
+            "totalPriceUzs": "Общая Стоимость (UZS)",
+            "phone": "Телефон",
+            "website": "Веб-сайт",
+            "region": "Регион"
+        }
+    }
+}
