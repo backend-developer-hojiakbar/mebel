@@ -51,7 +51,7 @@ const AppContent: React.FC = () => {
       const result = await analyzeLot(fullRequest, setAnalysisProgress, knowledgeBaseContent);
       setAnalysisResult(result);
       addAnalysisToHistory(result); // Save to history on success
-      setAppState('results');
+      setAppState('results'); // fjgjdsj
     } catch (err) {
       const errorMessage = err instanceof Error ? err.message : 'An unknown error occurred during analysis.';
       setError(errorMessage);
@@ -65,7 +65,7 @@ const AppContent: React.FC = () => {
     setAnalysisProgress(null);
     setAppState('form');
   }, []);
-  
+  // guyfgyugdu
   const handleViewHistoryItem = useCallback((item: AnalysisHistoryItem) => {
     setAnalysisResult(item.analysisResult);
     setAppState('results');
