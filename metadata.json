@@ -1,0 +1,5 @@
+{
+  "name": "MebelchiAka",
+  "description": "An AI-powered web platform to automatically analyze tender lots from government and corporate procurement portals, finding the most optimal suppliers using the Gemini API.",
+  "requestFramePermissions": []
+}

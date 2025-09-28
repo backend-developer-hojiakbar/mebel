@@ -1,0 +1,257 @@
+
+{
+    "header": {
+        "title": "Tender",
+        "subtitle": "Hunter AI"
+    },
+    "footer": {
+        "rights": "Barcha huquqlar himoyalangan."
+    },
+    "app": {
+        "tabs": {
+            "dashboard": "Boshqaruv Paneli",
+            "analysis": "Tender Tahlili",
+            "contracts": "Shartnomalar Bazasi",
+            "history": "Tahlillar Tarixi",
+            "quickSearch": "Tezkor Qidiruv"
+        }
+    },
+    "dashboard": {
+        "title": "Boshqaruv Paneli",
+        "subtitle": "Faoliyatingizning umumiy ko'rinishi va asosiy ko'rsatkichlar.",
+        "kpi": {
+            "totalAnalyses": "Jami Tahlillar",
+            "totalContracts": "Jami Shartnomalar",
+            "avgSuppliers": "O'rtacha Yetkazib Beruvchilar",
+            "topSupplier": "Eng Faol Yetkazib Beruvchi",
+            "noData": "Ma'lumot yo'q",
+            "winRate": "G'alaba Koeffitsiyenti",
+            "tendersWon": "Yutilgan Tenderlar",
+            "tendersLost": "Yutqazilgan Tenderlar",
+            "totalProfit": "Jami Foyda",
+            "avgMargin": "O'rtacha Marja"
+        },
+        "chart": {
+            "title": "Oylar Bo'yicha Tahlillar"
+        },
+        "recent": {
+            "analyses": "So'nggi Tahlillar",
+            "contracts": "So'nggi Shartnomalar"
+        }
+    },
+    "knowledgeBase": {
+        "title": "Shartnomalar Bazasi",
+        "subtitle": "Sun'iy intellektni o'qitish va tahlil sifatini oshirish uchun imzolangan shartnomalarni yuklang.",
+        "uploadButton": "Shartnoma Yuklash",
+        "uploadButtonMultiple": "{{count}} ta Faylni Yuklash",
+        "emptyState": "Hozircha hech qanday shartnoma yuklanmagan.",
+        "uploadedContracts": "Yuklangan Shartnomalar",
+        "deleteTooltip": "O'chirish",
+        "summaryPlaceholder": "Tavsif yaratilmoqda...",
+        "errorProcessing": "Tahlil qilishda xatolik",
+        "details": {
+            "customer": "Xaridor",
+            "supplier": "Yetkazib beruvchi",
+            "totalValue": "Umumiy qiymat",
+            "productsTitle": "Shartnomadagi mahsulotlar",
+            "product": "Mahsulot",
+            "quantity": "Miqdori",
+            "unitPrice": "Birlik narxi"
+        }
+    },
+    "analysisHistory": {
+        "title": "Tahlillar Tarixi",
+        "subtitle": "Barcha o'tgan tahlillaringiz bu yerda saqlanadi. Natijalarni ko'rish uchun istalgan birini tanlang.",
+        "emptyState": "Hozircha tahlillar tarixi mavjud emas. Yangi tahlilni boshlang!",
+        "viewButton": "Natijani Ko'rish",
+        "analyzedOn": "Tahlil qilindi: {{date}}",
+        "productsFound": "Mahsulotlar: {{count}}",
+        "status": {
+            "pending": "Kutilmoqda",
+            "won": "Yutilgan",
+            "lost": "Yutqazilgan",
+            "noBid": "Qatnashilmadi"
+        },
+        "winningBid": "Yutib olingan narx (UZS)",
+        "actualCost": "Haqiqiy tannarx (UZS)",
+        "deliveryNotes": "Yetkazib berish bo'yicha qaydlar",
+        "saveDetails": "Saqlash",
+        "editDetails": "Tahrirlash",
+        "profit": "Foyda",
+        "margin": "Marja"
+    },
+    "quickSearch": {
+        "title": "Tezkor Mahsulot Qidiruvi",
+        "subtitle": "Mahsulot nomini kiriting va sun'iy intellekt internetdan narxlarni topib, tahlil qilib beradi.",
+        "placeholder": "Masalan, 'Konditsioner Artel 12 Inverter'",
+        "button": "Qidirish",
+        "loading": "Qidirilmoqda va narxlar tahlil qilinmoqda...",
+        "noResults": "Hech qanday natija topilmadi.",
+        "error": "Qidiruv vaqtida xatolik yuz berdi.",
+        "price": "Narx",
+        "phone": "Telefon raqami",
+        "priceLoading": "Yuklanmoqda...",
+        "priceNA": "Topilmadi",
+        "priceError": "Xatolik"
+    },
+    "potentialScore": {
+        "title": "Potentsial Ball",
+        "description": "Imkoniyat va Risk ballari asosida hisoblangan umumiy ko'rsatkich.",
+        "opportunity": "Imkoniyat",
+        "risk": "Risk",
+        "winProbability": "G'alaba ehtimoli (Optimal)",
+        "daysRemaining": "{{days}} kun qoldi",
+        "deadlineExpired": "Muddati tugagan",
+        "deadlineNA": "Muddati noma'lum"
+    },
+    "form": {
+        "title": "Yangi Tahlilni Boshlash",
+        "subtitle": "Eng yaxshi yetkazib beruvchilarni darhol topish uchun tender ma'lumotlarini kiriting.",
+        "platformLabel": "Xarid Platformasi",
+        "tenderTypeLabel": "Tender Turi",
+        "urlLabel": "Lot Manbasi URL",
+        "urlHint": "Eng aniq va dolzarb natijalar uchun lotning URL manzilini fayl bilan birga taqdim eting.",
+        "or": "YOKI",
+        "fileLabel": "Saqlangan Faylni Yuklash",
+        "imageLabel": "Mahsulot Rasmlarini Yuklash",
+        "submitButton": "Tahlilni Boshlash",
+        "processingFile": "Fayllar Qayta Ishlanmoqda...",
+        "error": {
+            "noSource": "Iltimos, Lot URL manzilini kiriting yoki fayl yuklang."
+        },
+        "file": {
+            "clickToUpload": "Yuklash uchun bosing",
+            "dragAndDrop": "yoki faylni sudrab olib keling",
+            "addMoreHint": "yoki ko'proq qo'shing",
+            "supportedFormats": "Qo'llab-quvvatlanadigan formatlar: {{formats}}",
+            "multipleSelected": "{{count}} ta fayl tanlandi",
+            "selectedFiles": "Tanlangan fayllar",
+            "removeFile": "Faylni o'chirish"
+        }
+    },
+    "platform": {
+        "uzex": "xarid.uzex.uz",
+        "xt": "xt-xarid.uz"
+    },
+    "tenderType": {
+        "auction": "Auksion",
+        "selection": "Eng yaxshi takliflarni tanlash",
+        "eshop": "Elektron do'kon"
+    },
+    "loading": {
+        "title": "Tahlil Jarayonda",
+        "stage": {
+            "starting": "Tahlil boshlanmoqda...",
+            "scraping": "Rasm ma'lumotlari veb-sahifadan olinmoqda...",
+            "extracting": "Mahsulotlar hujjatdan ajratib olinmoqda...",
+            "searching": "Yetkazib beruvchilar qidirilmoqda... ({{current}}/{{total}})",
+            "summarizing": "Yakuniy xulosa tayyorlanmoqda...",
+            "compiling": "Hisobot tuzilmoqda..."
+        }
+    },
+    "results": {
+        "title": "Tahlil Yakunlandi",
+        "subtitle": "{{count}} ta mahsulot topildi. Yetkazib beruvchilarni ko'rish uchun mahsulotni tanlang.",
+        "exportButton": "CSV ga eksport",
+        "newAnalysisButton": "Yangi Tahlil",
+        "selectProductPrompt": "Potentsial yetkazib beruvchilarni ko'rish uchun ro'yxatdan mahsulot tanlang.",
+        "summary": {
+            "title": "Tahlil Xulosasi",
+            "productsFound": "Topilgan Mahsulotlar",
+            "suppliersAnalyzed": "Tahlil Qilingan Yetkazib Beruvchilar",
+            "source": "Tahlil Manbasi",
+            "aiInsightTitle": "AI Tahlil Xulosasi"
+        }
+    },
+    "productList": {
+        "title": "Lotdagi Mahsulotlar",
+        "startPrice": "Boshlang'ich narx",
+        "bestPrice": "Eng yaxshi narx",
+        "positionHeader": "Pozitsiya #{{number}}",
+        "researching": "Qidirilmoqda...",
+        "addPriceTooltip": "Narx qo'shish yoki tuzatish",
+        "edit": {
+            "name": "Mahsulot nomi",
+            "features": "Texnik xususiyatlari",
+            "cancel": "Bekor qilish",
+            "research": "Qayta qidirish"
+        }
+    },
+    "supplierTable": {
+        "productCode": "Mahsulot kodi",
+        "dimensions": "O'lchamlari",
+        "header": {
+            "company": "Kompaniya",
+            "price": "Birlik Narxi",
+            "totalPrice": "Umumiy Narx",
+            "stockStatus": "Ombordagi holati",
+            "contact": "Aloqa",
+            "region": "Mintaqa",
+            "score": "Reyting"
+        },
+        "noSuppliers": "Ushbu mahsulot uchun yetkazib beruvchilar topilmadi.",
+        "copyTooltip": "Nusxalash",
+        "editTooltip": "Tahrirlash",
+        "addSupplier": "Yetkazib beruvchi qo'shish",
+        "form": {
+            "companyName": "Kompaniya nomi",
+            "price": "Narx (masalan, 1500000 UZS)",
+            "phone": "Telefon",
+            "stockStatus": "Ombordagi holati",
+            "save": "Saqlash",
+            "cancel": "Bekor qilish"
+        }
+    },
+    "stockStatus": {
+        "inStock": "Omborda mavjud",
+        "onOrder": "Buyurtma asosida",
+        "outOfStock": "Mavjud emas",
+        "na": "Noma'lum"
+    },
+    "bidCalculator": {
+        "title": "Narx Taklifini Hisoblash",
+        "subtitle": "G'olib bo'lish narxini aniqlash uchun qo'shimcha xarajatlarni kiriting va AI tavsiyasini oling.",
+        "calculateButton": "Tavsiya Olish",
+        "calculating": "Hisoblanmoqda...",
+        "selectSuppliersPrompt": "Iltimos, har bir mahsulot uchun yetkazib beruvchini tanlang.",
+        "costsTitle": "Qo'shimcha Xarajatlar",
+        "logistics": "Logistika Xarajati (UZS)",
+        "bankGuarantee": "Bank Kafolati (UZS)",
+        "commission": "Vositachilik Komissiyasi (UZS)",
+        "fixedCosts": "Qat'iy Xarajatlar (UZS)",
+        "profitMargin": "Foyda Marjasi (%)",
+        "recommendationTitle": "AI Narx Tavsiyasi",
+        "recommendedBid": "Tavsiya Etilgan Narx",
+        "competitorAnalysis": "Raqobatchilar Tahlili",
+        "justification": "Asoslash",
+        "costBreakdownTitle": "Xarajatlar Tafsiloti",
+        "goodsTotal": "Mahsulotlar Jami",
+        "logisticsCost": "Logistika Xarajati",
+        "bankGuaranteeCost": "Bank Kafolati",
+        "commissionCost": "Vositachilik Komissiyasi",
+        "subtotal": "Oraliq Jami",
+        "profit": "Foyda",
+        "total": "Yakuniy Jami"
+    },
+    "error": {
+        "title": "Tahlil Muvaffaqiyatsiz Tugadi",
+        "genericMessage": "Faylni qayta ishlashda xatolik yuz berdi. Iltimos, bu haqiqiy, saqlangan tender hujjati ekanligiga ishonch hosil qiling. (Tafsilotlar: {{details}})",
+        "tryAgainButton": "Qayta Urinish"
+    },
+    "csv": {
+        "header": {
+            "position": "Pozitsiya",
+            "productName": "Mahsulot Nomi",
+            "features": "Xususiyatlari",
+            "unit": "O'lchov Birligi",
+            "quantity": "Miqdori",
+            "startPrice": "Boshlang'ich Narx",
+            "supplier": "Yetkazib Beruvchi",
+            "unitPriceOriginal": "Birlik Narxi (Asl)",
+            "totalPriceUzs": "Umumiy Narx (UZS)",
+            "phone": "Telefon",
+            "website": "Veb-sayt",
+            "region": "Mintaqa"
+        }
+    }
+}

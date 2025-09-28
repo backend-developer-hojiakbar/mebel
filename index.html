@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TenderHunter AI - Futuristic Tender Analysis</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --bg-main-rgb: 10 10 22;
+      --accent-1-rgb: 217 70 239; /* Fuchsia */
+      --accent-2-rgb: 20 184 166; /* Teal */
+      --card-bg-rgb: 23 23 40;
+      --glow-1-rgb: var(--accent-1-rgb);
+      --glow-2-rgb: var(--accent-2-rgb);
+    }
+
+    @keyframes pulse {
+      50% {
+        opacity: .75;
+      }
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes gradient-shift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    body {
+      background-color: rgb(var(--bg-main-rgb));
+      background-image: 
+        linear-gradient(rgba(var(--accent-2-rgb), 0.07) 1px, transparent 1px), 
+        linear-gradient(90deg, rgba(var(--accent-2-rgb), 0.07) 1px, transparent 1px);
+      background-size: 2rem 2rem;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      animation: fadeIn 1s ease-out;
+    }
+    
+    .glow-effect {
+      position: absolute;
+      pointer-events: none;
+      z-index: -1;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-image: radial-gradient(circle at center, rgba(var(--glow-1-rgb), 0.15) 0%, rgba(var(--glow-2-rgb), 0.15) 50%, transparent 100%);
+      filter: blur(120px);
+      width: 80vw;
+      height: 80vh;
+      max-width: 1000px;
+      max-height: 1000px;
+    }
+
+    .card-border-gradient {
+      position: relative;
+      background-color: rgb(var(--card-bg-rgb) / 0.7);
+      background-clip: padding-box;
+      border: 1px solid transparent;
+      backdrop-filter: blur(12px);
+    }
+
+    .card-border-gradient::before {
+      content: '';
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      z-index: -1;
+      margin: -1px;
+      border-radius: inherit;
+      background: linear-gradient(120deg, rgba(var(--glow-1-rgb), 0.3), rgba(var(--glow-2-rgb), 0.3), rgba(var(--glow-1-rgb), 0.3));
+      background-size: 200% 200%;
+      animation: gradient-shift 4s ease infinite;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.20.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-gray-950">
+  <div id="root"></div>
+  <!-- PDF.js for client-side PDF text extraction -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+  <script>pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js`;</script>
+  
+  <!-- Mammoth.js for client-side .docx to text conversion -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.4.9/mammoth.browser.min.js"></script>
+  
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
